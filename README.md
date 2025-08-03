@@ -50,4 +50,4 @@ Here is a link to Bernard Julve's Google Drive folder with saved HuggingFace mod
 
 https://drive.google.com/drive/folders/1OuFnXXQjodm4zuDqNgUFvnEFfSDediR7?usp=sharing
 
-These were the 4 trained models that were analyzed during this project.
+These 4 trained models were the result of the Models_*.ipynb fine tuning notebooks that utilized the SQuALITY data set.
