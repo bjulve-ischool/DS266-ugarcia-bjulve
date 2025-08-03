@@ -3,6 +3,9 @@
 ## Files
 
 - **analysis/**
+  - **data/**
+    - [hallucination_study_test_samples-2025-08-02_171427.pkl](https://github.com/bjulve-ischool/DS266-ugarcia-bjulve/blob/main/analysis/data/hallucination_study_test_samples-2025-08-02_171427.pkl)
+      - Saved short story/question pairs from the SQuALITY test set. There are 5 in total.
   - [Prepare_Samples.ipynb](https://github.com/bjulve-ischool/DS266-ugarcia-bjulve/blob/main/analysis/Prepare_Samples.ipynb)
     - Randomly sample 5 short stories from the SQuALITY test set and pair them with 5 questions generated from the [MixQG](https://huggingface.co/Salesforce/mixqg-base) model.
   - [SocraticPretrained_Augmented_FT_Analysis.ipynb](https://github.com/bjulve-ischool/DS266-ugarcia-bjulve/blob/main/analysis/SocraticPretrained_Augmented_FT_Analysis.ipynb)
@@ -39,6 +42,26 @@
   - Use QLoRA to fine tune the Socratric Pretrained (Pagnoni) BARTLarge model on the augmented data set with 25% Socratic question/summary masked inputs added.
   - 750 non-augmented samples, 250 augmented samples.
   - 1000 total training samples.
+- **data/**
+  - **v1-3/**
+    - [dev.jsonl](https://github.com/bjulve-ischool/DS266-ugarcia-bjulve/blob/main/data/v1-3/dev.jsonl)
+      - SQuALITY validation set.
+      - 500 total samples after forming every possible response, question, and document triplet.
+    - [test.jsonl](https://github.com/bjulve-ischool/DS266-ugarcia-bjulve/blob/main/data/v1-3/test.jsonl)
+      - SQuALITY test set.
+      - 1040 total samples after forming every possible response, question, and document triplet.
+    - [train.jsonl](https://github.com/bjulve-ischool/DS266-ugarcia-bjulve/blob/main/data/v1-3/train.jsonl)
+      - SQuALITY training set.
+      - 1000 total samples after forming every possible response, question, and document triplet.
+- **datasets/**
+  - [models_socraticpretraining_augmented_train-2025-07-28_092936.json](https://github.com/bjulve-ischool/DS266-ugarcia-bjulve/blob/main/datasets/models_socraticpretraining_augmented_train-2025-07-28_092936.json)
+    - Saved the 250 augmented samples (Socratic question/summary masked inputs).
+    - This took 20 minutes to generate on Colab.
+- **initial_attempts/**
+  - Various notebooks we created early on in the project.
+  - These are for historical purposes only.
+- **outputs/**
+  - These are the predictions (summary text) generated from each of the 6 models when run against the SQuALITY test data set.
 - [Models_SocraticPretrained_Augmented_Evaluation.ipynb](https://github.com/bjulve-ischool/DS266-ugarcia-bjulve/blob/main/Models_SocraticPretrained_Augmented_Evaluation.ipynb)
   - Run the test SQuALITY samples on the Socratic Pretrained model FT on augmented data. Metrics are also computed.
   - 1040 total test samples.
