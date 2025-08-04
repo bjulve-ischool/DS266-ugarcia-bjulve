@@ -1,0 +1,7 @@
+deberta_ranker_final_large_run: https://drive.google.com/drive/folders/1AB-3OL6KYPvxN3re546WBRSM7S0Wb6Tm?usp=sharing
+gemma_summarizer_run: https://drive.google.com/drive/folders/1EFjxAG2pD2uS5SUZGcofm3ivg3k86sby?usp=sharing
+cnn_dailymail_dataset: https://drive.google.com/drive/folders/1wZB9aH4SnomHGDbPcao9zejqlgLj0P88?usp=sharing
+gemma_summarizer_final_run: https://drive.google.com/drive/folders/1vEA1LaRJxVqfZDAJabBnhSXsnpW3wjUw?usp=sharing
+deberta_ranker_final_run: https://drive.google.com/drive/folders/1cV3JwaCrs80Fxpukx5jktTMaYJE58jYO?usp=sharing
+gemma_ranking_data.pkl: https://drive.google.com/file/d/1cmIjTzV5_f9MSqXr60qNYODkZYCfXP81/view?usp=sharing
+rank_examples_large.pkl: https://drive.google.com/file/d/11nmI3ESGhzjFuydTfWgiIkuIjin4Bu9d/view?usp=sharing
